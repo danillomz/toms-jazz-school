@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #FFE9D4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+header {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 380px;
+    text-align: center;
+}
+
+header div.logo {
+    width: 150px;
+    margin: auto;
+}
+
+div.logo svg {
+    margin: 40px 0 20px 0;
+
+}
+
+header > main {
+    width:65%;
+    margin: auto;
+}
+
+header > main > a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.botao {
+    background-color: #EC4D1B;
+    border: 3px solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 55px;
+    box-shadow: 5px 5px 2px black;
+
+}
+
+main {
+    width: 100%;
+}
+
+#section01 > #banner > svg {
+    width: 100%;
+}
