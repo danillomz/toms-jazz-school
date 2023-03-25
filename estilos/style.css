@@ -3,10 +3,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
-    background-color: #FFE9D4;
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
@@ -46,8 +47,11 @@ header > main > a {
     margin: 20px;
 }
 
+
 .botao {
-    background-color: #EC4D1B;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ED4D1B;
     border: 3px solid black;
     font-size: 1.5em;
     font-weight: bold;
@@ -57,6 +61,7 @@ header > main > a {
     color: black;
 
 }
+
 
 main {
     width: 100%;
@@ -82,7 +87,7 @@ main {
 }
 #section01 > h1 > strong {
     font-weight: 900;
-    color: #EC4D1B;
+    color: #ED4D1B;
 }
 
 #section01 > p {
@@ -90,9 +95,9 @@ main {
     margin-bottom: 35px;
     padding: 0px 30px;
     font-size: 1.5em;
-    font-weight: 700;
+    font-weight: 500;
 }
-#section01 > button {
+#section01 > a {
     margin-left: 35px;
     padding: 15px 30px;
 }
@@ -116,7 +121,7 @@ main {
 }
 
 #section article, .secao01, .secao03 {
-    background-color: #EC4D1B;
+    background-color: #ED4D1B;
 }
 #section article, .secao02, .secao04 {
     background-color: #FF9A3C;
@@ -143,7 +148,7 @@ main {
 }
 #section02 article p {
     font-size: 1.4em;
-    font-weight: 700;
+    font-weight: 500;
     padding: 20px 35px;
 }
 
