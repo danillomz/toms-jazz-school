@@ -56,7 +56,7 @@ header > main > a {
     font-size: 1.5em;
     font-weight: bold;
     padding: 15px 55px;
-    box-shadow: 5px 5px 2px black;
+    box-shadow: 5px 5px  black;
     text-decoration: none;
     color: black;
 
@@ -154,7 +154,7 @@ main {
 
 #section02 article  .arrow-rigth {
     text-align: right;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 
@@ -172,9 +172,10 @@ main {
     font-weight: 900;
     color: #EC4D1B;
 }
-#section02 > button {
+#section02 > a {
     position: relative;
     top: -70px;
+    text-align: center;
     margin-left: 35px;
     padding: 15px 30px;
 
