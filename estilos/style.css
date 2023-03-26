@@ -129,7 +129,6 @@ main {
     width: 100%;
     position: relative;
     top: -120px;
-    left: 5px;
 }
 
 #section article, .secao01, .secao03 {
@@ -137,10 +136,11 @@ main {
 }
 #section article, .secao02, .secao04 {
     background-color: #FF9A3C;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 
 #section02 article {
+    margin: auto;
     width: 272px;
     height: 306px;
     /* background-color: #EC4D1B; */
