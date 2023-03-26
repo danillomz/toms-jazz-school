@@ -120,15 +120,20 @@ main {
 
 
 #section02 {
-    padding: 0px 20px;
+    width: 100%;
+    /* padding: 0px 20px; */
     border-bottom: 1px solid black;
-    height: 1500px;
+    /* height: 1500px; */
 }
 
 #artigos {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: -120px;
+    padding: 20px;
 }
 
 #section article, .secao01, .secao03 {
@@ -136,11 +141,11 @@ main {
 }
 #section article, .secao02, .secao04 {
     background-color: #FF9A3C;
-    /* margin-left: 25px; */
+    margin-left: 25px;
 }
 
 #section02 article {
-    margin: auto;
+    /* margin: auto; */
     width: 272px;
     height: 306px;
     /* background-color: #EC4D1B; */
