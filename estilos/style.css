@@ -126,9 +126,10 @@ main {
 }
 
 #artigos {
+    width: 100%;
     position: relative;
     top: -120px;
-    left: 70px;
+    left: 5px;
 }
 
 #section article, .secao01, .secao03 {
