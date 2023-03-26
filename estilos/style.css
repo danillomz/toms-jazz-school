@@ -122,13 +122,13 @@ main {
 #section02 {
     padding: 0px 20px;
     border-bottom: 1px solid black;
-    height: 1950px;
+    height: 1500px;
 }
 
 #artigos {
     position: relative;
-    top: -150px;
-    left: 10px;
+    top: -120px;
+    left: 70px;
 }
 
 #section article, .secao01, .secao03 {
@@ -140,15 +140,15 @@ main {
 }
 
 #section02 article {
-    width: 23em;
-    height: 400px;
+    width: 272px;
+    height: 306px;
     /* background-color: #EC4D1B; */
     margin-bottom: 35px;
     border: 2px solid black;
     box-shadow: 8px 8px black;
 }
 #section02 article img {
-    width: 65px;
+    width: 48px;
     padding: 30px 35px 0px;
 }
 #section02 article h3 {
@@ -159,7 +159,7 @@ main {
 
 }
 #section02 article p {
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: 500;
     padding: 20px 35px;
 }
@@ -167,7 +167,7 @@ main {
 #section02 article  .arrow-rigth {
     display: block;
     text-align: right;
-    margin-top: 10px;
+    margin-top: -15px;
     margin-right: -10px;
 }
 
