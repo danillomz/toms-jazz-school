@@ -19,12 +19,13 @@ body {
 header {
     border-bottom: 1px solid black;
     width: 100%;
-    height: 380px;
+    height: 328px;
     text-align: center;
 }
 
 header div.logo {
-    width: 150px;
+/*     width: 106px;
+    height: 53px; */
     margin: auto;
 }
 
@@ -33,18 +34,25 @@ div.logo img {
 
 }
 
-header > main {
-    width:65%;
-    margin: auto;
+header > nav {
+    /* width:65%;
+    margin: auto; */
+    display: grid;
+    grid-template-columns: 1fr 1Fr;
 }
 
-header > main > a {
-    display: inline-block;
+header > nav > a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
     font-weight: bold;
-    margin: 20px;
+    margin: 10px 30px;
+}
+header nav a:nth-child(2n -1){
+    text-align: right;
+}
+header nav a:nth-child(2n){
+    text-align: left;
 }
 
 
@@ -53,10 +61,10 @@ header > main > a {
     margin-top: 10px;
     background-color: #ED4D1B;
     border: 3px solid black;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: bold;
     padding: 15px 55px;
-    box-shadow: 5px 5px  black;
+    box-shadow: 4px 4px 00 black;
     text-decoration: none;
     color: black;
 
@@ -77,15 +85,17 @@ main {
 
 #section01 > #banner > img {
     width: 100%;
-    height: 400px;
+
     /* background-color: aqua; */
 }
 #section01 > h1 {
+    margin-top: 25px;
     padding: 0px 30px;
-    font-size: 3.3em;
+    font-size: 4em;
     font-weight: 900;
+    line-height: 1em;
 }
-#section01 > h1 > strong {
+#section01 > h1 > span {
     font-weight: 900;
     color: #ED4D1B;
 }
@@ -94,10 +104,11 @@ main {
     margin-top: 35px;
     margin-bottom: 35px;
     padding: 0px 30px;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 500;
 }
 #section01 > a {
+    font-size: 1.7em;
     margin-left: 35px;
     padding: 15px 30px;
 }
@@ -111,7 +122,7 @@ main {
 #section02 {
     padding: 0px 20px;
     border-bottom: 1px solid black;
-    height: 2000px;
+    height: 1950px;
 }
 
 #artigos {
@@ -125,11 +136,11 @@ main {
 }
 #section article, .secao02, .secao04 {
     background-color: #FF9A3C;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 #section02 article {
-    width: 90%;
+    width: 23em;
     height: 400px;
     /* background-color: #EC4D1B; */
     margin-bottom: 35px;
@@ -141,6 +152,7 @@ main {
     padding: 30px 35px 0px;
 }
 #section02 article h3 {
+    margin-top: 20px;
     font-size: 1.8em;
     font-weight: 800;
     padding: 0px 35px;
@@ -153,30 +165,68 @@ main {
 }
 
 #section02 article  .arrow-rigth {
+    display: block;
     text-align: right;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-right: -10px;
 }
 
 
 
 
-#section02 h1 {
+#section02 h2 {
     position: relative;
     top: -100px;
     text-align: center;
     font-size: 2.8em;
     font-weight: 900;
 }
-#section02 > h1 > strong {
+#section02 > h2 > span {
     margin-top: 0px;
     font-weight: 900;
     color: #EC4D1B;
 }
 #section02 > a {
+    display: block;
+    max-width: 60%;
     position: relative;
     top: -70px;
     text-align: center;
-    margin-left: 35px;
-    padding: 15px 30px;
+    padding: 15px 15px;
+    margin: auto;
+}
 
+footer {
+    padding: 20px;
+}
+
+footer p {
+    margin: 20px 0px;
+}
+
+
+footer > nav > a {
+    display: block;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+footer form input {
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    padding: 5px;
+    width: 90%;
 }
