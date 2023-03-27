@@ -121,38 +121,36 @@ main {
 
 #section02 {
     width: 100%;
-    /* padding: 0px 20px; */
     border-bottom: 1px solid black;
-    /* height: 1500px; */
 }
 
 #artigos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -120px;
-    padding: 20px;
-}
-
-#section article, .secao01, .secao03 {
-    background-color: #ED4D1B;
-}
-#section article, .secao02, .secao04 {
-    background-color: #FF9A3C;
-    margin-left: 25px;
+    align-items: start;
+    gap: 1.5em;
+    margin-top: -7em;
+    margin-bottom: 8em;
+    padding: 3em;
 }
 
 #section02 article {
-    /* margin: auto; */
-    width: 272px;
+    max-width: 272px;
     height: 306px;
-    /* background-color: #EC4D1B; */
-    margin-bottom: 35px;
     border: 2px solid black;
-    box-shadow: 8px 8px black;
+    box-shadow: 4px 4px black;
 }
+.card:nth-child(2n -1) {
+    background-color: #ED4D1B;
+}
+.card:nth-child(2n) {
+    align-self: end;
+    background-color: #ff9a3c;
+}
+
+
+
 #section02 article img {
     width: 48px;
     padding: 30px 35px 0px;
